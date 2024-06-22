@@ -1,2 +1,2 @@
 # Samsung-Ethan-Martinez
- samsung course exercises
+ samsung course quizzes and activities that i made during the course

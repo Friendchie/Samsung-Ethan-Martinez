@@ -1,0 +1,826 @@
+
+<!-- saved from url=(0049)https://www.steamvirtual.com/mod/scorm/player.php -->
+<html dir="ltr" lang="es-mx" xml:lang="es-mx" class="yui3-js-enabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>
+var bbliveusers_limit=1706753445;
+window.setInterval(function(){
+    var bbliveusers_time=((Date.now() % 1000) / 1000);
+    if(bbliveusers_time<=bbliveusers_limit){
+        if(window.XMLHttpRequest){
+            request = new XMLHttpRequest();
+        }else{
+            request = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        request.open("GET","/local/bbliveusers/ping.php?courseid=1874&userid=19517",true);
+        request.send();
+    }
+},10000);
+</script>
+
+
+
+
+
+    <title>SIC 2024: CAP 3. FUNCION CLAUSURA Y CLASE P1 / CLASE SINCRONICA 5</title>
+    <link rel="shortcut icon" href="https://www.steamvirtual.com/pluginfile.php/1/theme_remui/faviconurl/1705958589/Logo%20SV%20pequeno.webp">
+    
+<meta name="keywords" content="moodle, SIC 2024: CAP 3. FUNCION CLAUSURA Y CLASE P1 / CLASE SINCRONICA 5">
+<link rel="stylesheet" type="text/css" href="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/combo"><script charset="utf-8" id="yui_3_17_2_1_1706746089452_11" src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/javascript.php" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1706746089452_12" src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/combo(1)" async=""></script><link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1706746089452_14" href="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/combo(2)"><script charset="utf-8" id="yui_3_17_2_1_1706746089452_15" src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/combo(3)" async=""></script><link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1706746089452_16" href="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/combo(4)"><script charset="utf-8" id="yui_3_17_2_1_1706746089452_17" src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/combo(5)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1706746089452_176" src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/combo(6)" async=""></script><script charset="utf-8" id="yui_3_17_2_2_1706746089452_2" src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/combo(7)" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/styles.php">
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/www.steamvirtual.com","sesskey":"NO18MKJ7un","sessiontimeout":"7200","themerev":"1705958589","slasharguments":1,"theme":"remui","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1705958589","admin":"admin","svgicons":true,"usertimezone":"Am\u00e9rica\/Panam\u00e1","contextid":58636,"langrev":1706692518,"templaterev":"1705958589"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/www.steamvirtual.com\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/www.steamvirtual.com\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/www.steamvirtual.com\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/www.steamvirtual.com\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/www.steamvirtual.com\/theme\/yui_combo.php?m\/1705958589\/","combine":true,"comboBase":"https:\/\/www.steamvirtual.com\/theme\/yui_combo.php?","ext":false,"root":"m\/1705958589\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_sectioncompleted-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_xp-notification":{"requires":["base","node","handlebars","button-plugin","moodle-core-notification-dialogue"]},"moodle-block_xp-filters":{"requires":["base","node","moodle-core-dragdrop","moodle-core-notification-confirm","moodle-block_xp-rulepicker"]},"moodle-block_xp-rulepicker":{"requires":["base","node","handlebars","moodle-core-notification-dialogue"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-format_grid-gridkeys":{"requires":["event-nav-keys"]},"moodle-format_trail-trailkeys":{"requires":["event-nav-keys"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-beautify":{},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_multilang2-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/www.steamvirtual.com\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/www.steamvirtual.com\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1705958589\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/www.steamvirtual.com\/lib\/javascript.php\/1705958589\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/www.steamvirtual.com\/lib\/javascript.php\/1705958589\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<script>
+//<![CDATA[
+var scormplayerdata = {"launch":false,"currentorg":"","sco":0,"scorm":0,"courseid":"1874","cwidth":"150","cheight":"550","popupoptions":""};
+//]]>
+</script>
+
+<meta name="google-site-verification" content="-Vy-9wWTjBtVE3pWssxPiCiQN7niC2e29XH8cNeHDjY"><link href="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/requirejs.php"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/javascript(1).php"></script></head>
+<body id="page-mod-scorm-player" class="forcejavascript format-flexsections path-mod path-mod-scorm chrome dir-ltr lang-es_mx yui-skin-sam yui3-skin-sam www-steamvirtual-com pagelayout-incourse course-1874 context-58636 cmid-13477 category-37 remui-customizer mergemessagingsidebar header-site-identity-logo header-primary-layout-desktop-left header-primary-layout-mobile-top jsenabled"><div id="yui_3_17_2_1_1706746089452_64" class="yui3-dd-shim" style="top: 0px; left: 0px; position: absolute; z-index: 9999; overflow: hidden; background-color: red; display: none; height: 5px; width: 5px;"></div>
+
+    
+    <nav class="fixed-top navbar navbar-light nav-inverse  navbar-expand moodle-has-zindex p-0 greedy" aria-label="Navegación del sitio">
+        <div class="navbar-brand navbar-brand-center p-0 m-0 h-100">
+                <a class="header-logo text-white align-items-center justify-content-center h-100 text-decoration-none" href="https://www.steamvirtual.com/" aria-label="Brand Logo">
+                    <img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/Logo SV pequeno.webp" class="navbar-brand-logo mini">
+                    <img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/Logo SV.webp" class="navbar-brand-logo">
+                </a>
+                <a class="header-sitename text-white align-items-center justify-content-center h-100 text-decoration-none" href="https://www.steamvirtual.com/" aria-label="STEAMVirtual - Brand Name">
+                    <span class="navbar-brand-logo mini"><i class="fa fa-graduation-cap"></i></span>
+                    <span class="navbar-brand-logo font-weight-bold">
+                        <i class="fa fa-graduation-cap"></i>&nbsp;
+                        STEAMVirtual
+                    </span>
+                </a>
+        </div>
+        <div class="navbar-options d-flex h-100">
+            <div data-region="drawer-toggle" class="d-inline-block m-0 h-100">
+                <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left  bg-transparent h-100" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav">
+                    <i class="icon fa fa-bars fa-fw " aria-hidden="true"></i><span class="sr-only">Pánel lateral</span>
+                </button>
+            </div>
+            <div class="nav-item" id="toggleFullscreen" title="Pantalla completa">
+                <a class="nav-link icon m-0 px-3 h-auto" data-toggle="fullscreen" href="https://www.steamvirtual.com/mod/scorm/player.php#" role="button" aria-label="Pantalla completa">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="expand" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-expand fa-w-14 fa-3x"><path fill="currentColor" d="M0 180V56c0-13.3 10.7-24 24-24h124c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H64v84c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12zM288 44v40c0 6.6 5.4 12 12 12h84v84c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12V56c0-13.3-10.7-24-24-24H300c-6.6 0-12 5.4-12 12zm148 276h-40c-6.6 0-12 5.4-12 12v84h-84c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h124c13.3 0 24-10.7 24-24V332c0-6.6-5.4-12-12-12zM160 468v-40c0-6.6-5.4-12-12-12H64v-84c0-6.6-5.4-12-12-12H12c-6.6 0-12 5.4-12 12v124c0 13.3 10.7 24 24 24h124c6.6 0 12-5.4 12-12z" class=""></path></svg>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="compress" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-compress fa-w-14 fa-3x"><path fill="currentColor" d="M436 192H312c-13.3 0-24-10.7-24-24V44c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v84h84c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm-276-24V44c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v84H12c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h124c13.3 0 24-10.7 24-24zm0 300V344c0-13.3-10.7-24-24-24H12c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h84v84c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-84h84c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12H312c-13.3 0-24 10.7-24 24v124c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12z" class=""></path></svg>
+                </a>
+            </div>
+    
+    
+            <ul class="navbar-nav h-100 wdm-custom-menus links">
+                <!-- custom_menu -->
+                
+                <!-- page_heading_menu -->
+                
+            <li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-65bae185c237b65bae185b724f5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="https://www.steamvirtual.com/mod/scorm/player.php#" title="Idioma" aria-controls="drop-down-menu-65bae185c237b65bae185b724f5">
+        Español - México ‎(es_mx)‎
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-65bae185c237b65bae185b724f5" aria-labelledby="drop-down-65bae185c237b65bae185b724f5">
+                <a class="dropdown-item" role="menuitem" href="https://www.steamvirtual.com/mod/scorm/player.php?scoid=838&amp;cm=13477&amp;currentorg=pkOnVuaQYRwCN_organization&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://www.steamvirtual.com/mod/scorm/player.php?scoid=838&amp;cm=13477&amp;currentorg=pkOnVuaQYRwCN_organization&amp;lang=es_mx" title="Español - México ‎(es_mx)‎">Español - México ‎(es_mx)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://www.steamvirtual.com/mod/scorm/player.php?scoid=838&amp;cm=13477&amp;currentorg=pkOnVuaQYRwCN_organization&amp;lang=fr" title="Français ‎(fr)‎">Français ‎(fr)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://www.steamvirtual.com/mod/scorm/player.php?scoid=838&amp;cm=13477&amp;currentorg=pkOnVuaQYRwCN_organization&amp;lang=pt_br" title="Português - Brasil ‎(pt_br)‎">Português - Brasil ‎(pt_br)‎</a>
+    </div>
+</li></ul>
+    
+            <!-- collapsible menu -->
+            <button class="menu-toggle hidden" count="0"><span><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span></button>
+            <ul class="hidden-links hidden"></ul>
+    
+            <!-- login menu toggler on mobile -->
+            <button type="button" class="navbar-toggler">
+                <i class="icon fa fa-ellipsis-v" aria-hidden="true"></i>
+            </button>
+    
+            <ul class="nav navbar-nav ml-auto mr-2 h-100 right-menu justify-content-end">
+                
+                
+    
+                <!-- navbar_plugin_output : 'message', 'notifications' and 'chat sidebar' toggles -->
+                <li class="nav-item">
+                <div class="popover-region collapsed popover-region-notifications nav-item m-0" id="nav-notification-popover-container" data-userid="19517" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" role="button" aria-controls="popover-region-container-65bae185c288965bae185b724f6" aria-haspopup="true" aria-label="Mostrar ventana de notificación sin notificaciones nuevas" tabindex="0">
+                <i class="icon fa fa-bell fa-fw " title="Mostrar/Ocultar menú de notificaciones" aria-label="Mostrar/Ocultar menú de notificaciones"></i>
+        <div class="count-container hidden" data-region="count-container" aria-label="Hay 0 notificaciones no leídas">0</div>
+
+    </div>
+    <div id="popover-region-container-65bae185c288965bae185b724f6" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Ventana de notificación" role="region">
+        <div class="popover-region-header-container p-3 h-auto">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notificaciones</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button" href="https://www.steamvirtual.com/mod/scorm/player.php#" title="Marcar todo como leído" data-action="mark-all-read" role="button">
+            <span class="normal-icon" aria-label="Marcar todo como leído"><i class="icon fa fa-check fa-fw " aria-hidden="true"></i></span>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Cargando" aria-label="Cargando"></i></span>
+        </a>
+        <a href="https://www.steamvirtual.com/message/notificationpreferences.php?userid=19517" title="Preferencias de notificación" aria-label="Preferencias de notificación">
+            <i class="icon fa fa-cog fa-fw " aria-hidden="true"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications" data-region="all-notifications" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">Usted no tiene notificaciones</div>
+
+            </div>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " title="Cargando" aria-label="Cargando"></i></span>
+        </div>
+                <a class="see-all-link" href="https://www.steamvirtual.com/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container p-2 justify-content-center h-auto">
+                        <div class="popover-region-seeall-text">Verlo todo</div>
+                    </div>
+                </a>
+    </div>
+</div>
+                </li>
+                <!-- user_menu -->
+                <li class="nav-item d-flex align-items-center">
+                    <div class="usermenu nav-item dropdown user-menu login-menu"><a class="nav-link navbar-avatar" data-toggle="dropdown" href="https://www.steamvirtual.com/mod/scorm/player.php#" aria-expanded="false" data-animation="scale-up" role="button">
+            <span class="username pr-1">Ethan Martinez</span>
+            <span class="avatar avatar-online current">
+            <img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/f2.png" class="userpicture" width="35" height="35" aria-hidden="true">
+            <i style="border-color: white;"></i>
+            </span>
+        </a><div class="dropdown-menu  dropdown-menu-right" role="menu"><a class="dropdown-item" href="https://www.steamvirtual.com/my/" role="menuitem"><i class="icon fa fa-tachometer fa-fw iconsmall" aria-hidden="true" title="Tablero"></i>Tablero</a><div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" href="https://www.steamvirtual.com/user/profile.php?id=19517" role="menuitem"><i class="icon fa fa-user fa-fw iconsmall" aria-hidden="true" title="Perfil"></i>Perfil</a><a class="dropdown-item" href="https://www.steamvirtual.com/grade/report/overview/index.php" role="menuitem"><i class="icon fa fa-table fa-fw iconsmall" aria-hidden="true" title="Calificaciones"></i>Calificaciones</a><a class="dropdown-item" href="https://www.steamvirtual.com/message/index.php" role="menuitem"><i class="icon fa fa-comment fa-fw iconsmall" aria-hidden="true" title="Mensajes"></i>Mensajes</a><a class="dropdown-item" href="https://www.steamvirtual.com/user/preferences.php" role="menuitem"><i class="icon fa fa-wrench fa-fw iconsmall" aria-hidden="true" title="Preferencias"></i>Preferencias</a><div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" href="https://www.steamvirtual.com/login/logout.php?sesskey=NO18MKJ7un" role="menuitem"><i class="icon fa fa-sign-out fa-fw iconsmall" aria-hidden="true" title="Salir"></i>Salir</a></div></div>
+                </li>
+            </ul>
+            <!-- search_box -->
+        <div>
+    </div></div></nav>
+    
+    <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex closed" aria-hidden="true" tabindex="-1" style="bottom: 55px;">
+        <div id="nav-drawer-container">
+                
+                <nav class="list-group" id="activity-nav">
+                    <a href="https://www.steamvirtual.com/course/view.php?id=1874" class="list-group-item text-decoration-none">
+                        <div class="ml-0">
+                            <div class="media">
+                                <span class="media-left backtocourse">
+                                    <i class="icon fa fa-chevron-left" aria-hidden="true"></i>
+                                </span>
+                                <span class="media-body">Resumen del curso</span>
+                            </div>
+                        </div>
+                    </a>
+                    <p class="text-uppercase text-center font-size-10 justify-content-center align-items-center section-heading m-0">Secciones</p>
+                        <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-1">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body">01 Semana<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                                    <span class="media-left">
+                                        1
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-1" data-parent="#activiy-nav">
+                                <li class="list-group-item activity   incomplete p-0" title="CAP 1. PROGRAMACION BASICA PYTHON P1 / CLASE SINCRONICA 1">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13473"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 1. PROGRAMACION BASICA PYTHON P1 / CLASE SINCRONICA 1<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   incomplete p-0" title="CAP 1. PROGRAMACION BASICA P2 / CLASE SINCRONICA 2">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13474"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 1. PROGRAMACION BASICA P2 / CLASE SINCRONICA 2<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   complete p-0" title="ACTIVIDAD CAPITULO 1 / ASINCRONICA SEMANA 1">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/assign/view.php?id=13490"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon(1).svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">ACTIVIDAD CAPITULO 1 / ASINCRONICA SEMANA 1<span class="accesshide "> Tarea</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   complete p-0" title="QUIZ 1 - PYTHON">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/assign/view.php?id=13503"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon(1).svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">QUIZ 1 - PYTHON<span class="accesshide "> Tarea</span></span></a>
+                                </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-2">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body">02 Semana<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                                    <span class="media-left">
+                                        2
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-2" data-parent="#activiy-nav">
+                                <li class="list-group-item activity   complete p-0" title="CAP 2. PROGRAMACION PYTHON P1 / CLASE SINCRONICA 3">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13475"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 2. PROGRAMACION PYTHON P1 / CLASE SINCRONICA 3<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   complete p-0" title="CAP 2. PROGRAMACION PYTHON P2 / CLASE SINCRONICA 4">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13476"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 2. PROGRAMACION PYTHON P2 / CLASE SINCRONICA 4<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   complete p-0" title="ACTIVIDAD CAPITULO 2 / ASINCRONICA SEMANA 2">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/assign/view.php?id=13492"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon(1).svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">ACTIVIDAD CAPITULO 2 / ASINCRONICA SEMANA 2<span class="accesshide "> Tarea</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   complete p-0" title="QUIZ 2 - PYTHON">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/assign/view.php?id=13506"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon(1).svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">QUIZ 2 - PYTHON<span class="accesshide "> Tarea</span></span></a>
+                                </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none active" data-toggle="collapse" data-target="#activity-submenu-3">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body">03 Semana<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                                    <span class="media-left">
+                                        3
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <ul class="collapse p-0 show sub-menu m-0" id="activity-submenu-3" data-parent="#activiy-nav">
+                                <li class="list-group-item activity active  incomplete p-0" title="CAP 3. FUNCION CLAUSURA Y CLASE P1 / CLASE SINCRONICA 5">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13477"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 3. FUNCION CLAUSURA Y CLASE P1 / CLASE SINCRONICA 5<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   incomplete p-0" title="CAP 3. FUNCION CLAUSURA Y CLASE P2 / CLASE SINCRONICA 6">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13478"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 3. FUNCION CLAUSURA Y CLASE P2 / CLASE SINCRONICA 6<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   incomplete p-0" title="ACTIVIDAD CAPITULO 3 / ASINCRONICA SEMANA 3">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/assign/view.php?id=13493"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon(1).svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">ACTIVIDAD CAPITULO 3 / ASINCRONICA SEMANA 3<span class="accesshide "> Tarea</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   incomplete p-0" title="QUIZ 3 - PYTHON">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/assign/view.php?id=13504"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon(1).svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">QUIZ 3 - PYTHON<span class="accesshide "> Tarea</span></span></a>
+                                </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-4">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body">04 Semana<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                                    <span class="media-left">
+                                        4
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-4" data-parent="#activiy-nav">
+                                <li class="list-group-item activity   incomplete p-0" title="CAP 4. ESTRUCTURA DE DATOS P1 / CLASE SINCRONICA 7">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13479"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 4. ESTRUCTURA DE DATOS P1 / CLASE SINCRONICA 7<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   incomplete p-0" title="CAP 4. ESTRUCTURA DE DATOS P2 / CLASE SINCRONICA 8">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13480"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 4. ESTRUCTURA DE DATOS P2 / CLASE SINCRONICA 8<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   incomplete p-0" title="ACTIVIDAD CAPITULO 4 / ASINCRONICA SEMANA 4">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/assign/view.php?id=13494"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon(1).svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">ACTIVIDAD CAPITULO 4 / ASINCRONICA SEMANA 4<span class="accesshide "> Tarea</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   incomplete p-0" title="QUIZ 4 - PYTHON">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/assign/view.php?id=13507"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon(1).svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">QUIZ 4 - PYTHON<span class="accesshide "> Tarea</span></span></a>
+                                </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-5">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body">05 Semana<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                                    <span class="media-left">
+                                        5
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-5" data-parent="#activiy-nav">
+                                <li class="list-group-item activity   incomplete p-0" title="CAP 5. ALGORITMOS DE ORDENAMIENTO P1 / CLASE SINCRONICA 9">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13481"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 5. ALGORITMOS DE ORDENAMIENTO P1 / CLASE SINCRONICA 9<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   incomplete p-0" title="CAP 5. ALGORITMOS DE ORDENAMIENTO P2/ CLASE SINCRONICA 10">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13483"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 5. ALGORITMOS DE ORDENAMIENTO P2/ CLASE SINCRONICA 10<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   incomplete p-0" title="ACTIVIDAD CAPITULO 5 / ASINCRONICA SEMANA 5">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/assign/view.php?id=13495"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon(1).svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">ACTIVIDAD CAPITULO 5 / ASINCRONICA SEMANA 5<span class="accesshide "> Tarea</span></span></a>
+                                </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-6">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body">06 Semana<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                                    <span class="media-left">
+                                        6
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-6" data-parent="#activiy-nav">
+                                <li class="list-group-item activity   incomplete p-0" title="CAP 6. RESOLUCION DE PROBLEMAS CON ALGORITMOS P1 / CLASE SINCRONICA 12">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13484"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 6. RESOLUCION DE PROBLEMAS CON ALGORITMOS P1 / CLASE SINCRONICA 12<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   incomplete p-0" title="CAP 6. RESOLUCION DE PROBLEMAS CON ALGORITMOS P2 / CLASE SINCRONICA 10">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13482"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 6. RESOLUCION DE PROBLEMAS CON ALGORITMOS P2 / CLASE SINCRONICA 10<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   incomplete p-0" title="ACTIVIDAD CAPITULO 6 / ASINCRONICA SEMANA 6">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/assign/view.php?id=13496"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon(1).svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">ACTIVIDAD CAPITULO 6 / ASINCRONICA SEMANA 6<span class="accesshide "> Tarea</span></span></a>
+                                </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-7">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body">07 Semana<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                                    <span class="media-left">
+                                        7
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-7" data-parent="#activiy-nav">
+                                <li class="list-group-item activity   incomplete p-0" title="CAP 7. PROCESAMIENTO DE DATOS EST. DESC. Y VISUALIZACION DE DATOS P1/ CLASE SINCRONICA 13">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13486"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 7. PROCESAMIENTO DE DATOS EST. DESC. Y VISUALIZACION DE DATOS P1/ CLASE SINCRONICA 13<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   incomplete p-0" title="CAP 7. PROCESAMIENTO DE DATOS EST. DESC. Y VISUALIZACION DE DATOS P2/ CLASE SINCRONICA 14">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13487"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 7. PROCESAMIENTO DE DATOS EST. DESC. Y VISUALIZACION DE DATOS P2/ CLASE SINCRONICA 14<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   incomplete p-0" title="ACTIVIDAD CAPITULO 7 / ASINCRONICA SEMANA 7">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/assign/view.php?id=13497"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon(1).svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">ACTIVIDAD CAPITULO 7 / ASINCRONICA SEMANA 7<span class="accesshide "> Tarea</span></span></a>
+                                </li>
+                                <li class="list-group-item activity   incomplete p-0" title="QUIZ 7 - PYTHON">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/assign/view.php?id=13508"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon(1).svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">QUIZ 7 - PYTHON<span class="accesshide "> Tarea</span></span></a>
+                                </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="list-group-item activity-sections text-decoration-none " data-toggle="collapse" data-target="#activity-submenu-8">
+                            <div class="ml-0">
+                                <div class="media">
+                                    <span class="media-body">08 Semana<i class="icon fa fa-angle-right mr-0 ml-2" aria-hidden="true"></i></span>
+                                    <span class="media-left">
+                                        8
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <ul class="collapse p-0  sub-menu m-0" id="activity-submenu-8" data-parent="#activiy-nav">
+                                <li class="list-group-item activity   incomplete p-0" title="CAP 8. MINIPROYECTO DE VISUALIZACION DE DATOS / CLASE SINCRONICA 15">
+                                  <a class="aalink" onclick="" href="https://www.steamvirtual.com/mod/scorm/view.php?id=13488"><img src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/icon.svg" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">CAP 8. MINIPROYECTO DE VISUALIZACION DE DATOS / CLASE SINCRONICA 15<span class="accesshide "> Paquete SCORM</span></span></a>
+                                </li>
+                        </ul>
+                
+                </nav>
+    
+        </div>
+        <div class="site-menubar-footer d-flex align-items-center" aria-label="Navigation Footer Menu" role="group">
+                <a href="https://www.steamvirtual.com/course/index.php" class="w-100 align-items-center d-flex justify-content-center" data-placement="top" data-toggle="tooltip" aria-label="Página de archivo del curso" title="" role="button" data-original-title="Página de archivo del curso">
+                    <span class="fa fa-archive" aria-hidden="true"></span>
+                </a>
+        </div>
+    </div>
+
+<div id="page-wrapper">
+    <div>
+    <a class="sr-only sr-only-focusable" href="https://www.steamvirtual.com/mod/scorm/player.php#maincontent">Saltar al contenido principal</a>
+</div><script src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/javascript(2).php"></script>
+<script src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/javascript(3).php"></script>
+<script src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/combo(8)"></script><script src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/javascript(4).php"></script>
+<script src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/javascript(5).php"></script>
+<script src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/javascript(6).php"></script>
+<script src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/javascript(7).php"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+    <div id="page">
+        <div class="edwiser-notice position-fixed mt-10" style="display: none; z-index: 1500;left: 50%;transform: translateX(-50%);" role="alert">
+        </div>
+        
+            <div class="container">
+            <header id="page-header" class="row"><div class="col-12"><div class="card"><div class="card-body d-flex justify-content-between flex-wrap"><div class="mr-2"><h3 class="page-title mb-0">SAMSUNG INNOVATION CAMPUS SIC 2024</h3><nav aria-label="Barra de Navegación">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="https://www.steamvirtual.com/">Inicio</a>
+                </li>
+        
+                <li class="breadcrumb-item">Mis cursos</li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://www.steamvirtual.com/course/index.php?categoryid=37">Programas Sociales</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://www.steamvirtual.com/course/view.php?id=1874" title="SAMSUNG INNOVATION CAMPUS SIC 2024">SIC 2024</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://www.steamvirtual.com/course/view.php?id=1874&amp;sectionid=1695#section-3">03 Semana</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://www.steamvirtual.com/mod/scorm/view.php?id=13477" aria-current="page">CAP 3. FUNCION CLAUSURA Y CLASE P1 / CLASE SINCRONICA 5</a>
+                </li>
+        </ol>
+</nav></div><div class="page-header-actionss position-relative d-flex ml-1"><div class="header-actions-container flex-shrink-0" data-region="header-actions-container"></div><span class="overlay-menu m-1 mr-1"><button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-ellipsis-v px-1" aria-hidden="true"></i></button><div class="dropdown-menu p-2 dropdown-menu-right"><a title="Salir de la actividad" class="btn btn-secondary" href="https://www.steamvirtual.com/course/view.php?id=1874&amp;sectionid=1695#section-3">Salir de la actividad</a></div></span></div></div></div></div></header>
+        <div id="page-content" class="row pb-4 ">
+            <div id="region-main-box" class="col-12">
+                <section data-region="blocks-column" class="d-print-none page-aside" aria-label="Bloques">
+                </section>
+
+<section id="region-main" aria-label="Contenido">
+
+    
+    <div class="card card-body ">
+        <span class="notifications" id="user-notifications"></span><div class="course-content-header"><div class="header backto"><a href="https://www.steamvirtual.com/course/view.php?id=1874&amp;sectionid=1695#section-3"><i class="icon fa fa-arrow-up fa-fw " aria-hidden="true"></i><span class="backto-text">Regresar a '03 Semana'</span></a></div></div>
+        <div role="main"><span id="maincontent"></span><h2>CAP 3. FUNCION CLAUSURA Y CLASE P1 / CLASE SINCRONICA 5</h2><div id="scormpage"><div id="tocbox"><div id="scormapi-parent"><script id="external-scormapi" type="text/JavaScript"></script></div><div id="toctree"><div class="yui3-g-r" id="scorm_layout" style="height: 680px;"><div class="yui3-u-1-5 disabled yui3-resize" id="scorm_toc" style="max-width: 336px;"><div id="scorm_toc_title">sem03_sin01_SIC_CP_Capitulo 3. Función, clausura y clase</div><div id="scorm_tree" class="yui3-treeview yui3-treeview-notouch"><ul class="yui3-treeview-children" role="tree" tabindex="0" aria-expanded="true"><li id="treeNode-yui_3_17_2_1_1706746089452_157" class="yui3-treeview-node yui3-treeview-selected" role="treeitem" aria-labelled-by="treeNode-yui_3_17_2_1_1706746089452_157-label" aria-expanded="false" tabindex="0"><div class="yui3-treeview-row" data-node-id="treeNode-yui_3_17_2_1_1706746089452_157"><span class="yui3-treeview-indicator"><s></s></span><span class="yui3-treeview-icon"></span><span id="treeNode-yui_3_17_2_1_1706746089452_157-label" class="yui3-treeview-label"><a data-scoid="838" title="a=376&amp;scoid=838&amp;currentorg=pkOnVuaQYRwCN_organization&amp;mode=&amp;attempt=1"><i class="icon fa fa-square-o fa-fw " title="No se ha intentado" aria-label="No se ha intentado"></i>&nbsp;sem03_sin01_SIC_CP_Capitulo 3. Función, clausura y clase&nbsp;</a></span></div></li></ul></div><div class="yui3-resize-handles-wrapper"><div class="yui3-resize-handle yui3-resize-handle-r"><div class="yui3-resize-handle-inner yui3-resize-handle-inner-r">&nbsp;</div></div></div></div><div class="disabled" id="scorm_toc_toggle"><button id="scorm_toc_toggle_btn"></button></div><div id="scorm_content" class="yui3-u-1"><iframe id="scorm_object" type="text/html" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/loadSCO.html"></iframe><div id="scorm_navpanel"></div></div></div></div></div><noscript><div id="noscript">Su navegador no admite javascript, o tiene la opción javascript deshabilitada. Este paquete SCORM no puede reproducirse o guardar los datos correctamente.</div></noscript></div><noscript><div class="box py-3 generalbox boxaligncenter forcejavascriptmessage">Se requiere JavaScript para visualizar este objeto, por favor, active JavaScript en su navegador y vuelva a intentarlo.</div></noscript></div>
+        <div class="mt-4 mb-2 activity-navigation">
+    <div class="row align-items-center">
+        <div class="col-md-4">
+            <div class="float-left">
+                    <a href="https://www.steamvirtual.com/mod/assign/view.php?id=13506&amp;forceview=1" id="prev-activity-link" class="btn btn-inverse btn-sm" title="QUIZ 2 - PYTHON">Actividad previa</a>
+
+            </div>
+        </div>
+        <div class="col-md-4 my-1">
+            <div class="mdl-align">
+                <div class="urlselect">
+    <form method="post" action="https://www.steamvirtual.com/course/jumpto.php" class="form-inline" id="url_select_f65bae185b724f7">
+        <input type="hidden" name="sesskey" value="NO18MKJ7un">
+            <label for="jump-to-activity" class="sr-only">
+                Ir a...
+            </label>
+        <select id="jump-to-activity" class="custom-select urlselect" name="jump">
+                    <option value="" selected="">Ir a...</option>
+                    <option value="/mod/scorm/view.php?id=13473&amp;forceview=1">CAP 1. PROGRAMACION BASICA PYTHON P1 / CLASE SINCRONICA 1</option>
+                    <option value="/mod/scorm/view.php?id=13474&amp;forceview=1">CAP 1. PROGRAMACION BASICA P2 / CLASE SINCRONICA 2</option>
+                    <option value="/mod/assign/view.php?id=13490&amp;forceview=1">ACTIVIDAD CAPITULO 1 / ASINCRONICA SEMANA 1</option>
+                    <option value="/mod/assign/view.php?id=13503&amp;forceview=1">QUIZ 1 - PYTHON</option>
+                    <option value="/mod/scorm/view.php?id=13475&amp;forceview=1">CAP 2. PROGRAMACION PYTHON P1 / CLASE SINCRONICA 3</option>
+                    <option value="/mod/scorm/view.php?id=13476&amp;forceview=1">CAP 2. PROGRAMACION PYTHON P2 / CLASE SINCRONICA 4</option>
+                    <option value="/mod/assign/view.php?id=13492&amp;forceview=1">ACTIVIDAD CAPITULO 2 / ASINCRONICA SEMANA 2</option>
+                    <option value="/mod/assign/view.php?id=13506&amp;forceview=1">QUIZ 2 - PYTHON</option>
+                    <option value="/mod/scorm/view.php?id=13478&amp;forceview=1">CAP 3. FUNCION CLAUSURA Y CLASE P2 / CLASE SINCRONICA 6</option>
+                    <option value="/mod/assign/view.php?id=13493&amp;forceview=1">ACTIVIDAD CAPITULO 3 / ASINCRONICA SEMANA 3</option>
+                    <option value="/mod/assign/view.php?id=13504&amp;forceview=1">QUIZ 3 - PYTHON</option>
+                    <option value="/mod/scorm/view.php?id=13479&amp;forceview=1">CAP 4. ESTRUCTURA DE DATOS P1 / CLASE SINCRONICA 7</option>
+                    <option value="/mod/scorm/view.php?id=13480&amp;forceview=1">CAP 4. ESTRUCTURA DE DATOS P2 / CLASE SINCRONICA 8</option>
+                    <option value="/mod/assign/view.php?id=13494&amp;forceview=1">ACTIVIDAD CAPITULO 4 / ASINCRONICA SEMANA 4</option>
+                    <option value="/mod/assign/view.php?id=13507&amp;forceview=1">QUIZ 4 - PYTHON</option>
+                    <option value="/mod/scorm/view.php?id=13481&amp;forceview=1">CAP 5. ALGORITMOS DE ORDENAMIENTO P1 / CLASE SINCRONICA 9</option>
+                    <option value="/mod/scorm/view.php?id=13483&amp;forceview=1">CAP 5. ALGORITMOS DE ORDENAMIENTO P2/ CLASE SINCRONICA 10</option>
+                    <option value="/mod/assign/view.php?id=13495&amp;forceview=1">ACTIVIDAD CAPITULO 5 / ASINCRONICA SEMANA 5</option>
+                    <option value="/mod/scorm/view.php?id=13484&amp;forceview=1">CAP 6. RESOLUCION DE PROBLEMAS CON ALGORITMOS P1 / CLASE SINCRONICA 12</option>
+                    <option value="/mod/scorm/view.php?id=13482&amp;forceview=1">CAP 6. RESOLUCION DE PROBLEMAS CON ALGORITMOS P2 / CLASE SINCRONICA 10</option>
+                    <option value="/mod/assign/view.php?id=13496&amp;forceview=1">ACTIVIDAD CAPITULO 6 / ASINCRONICA SEMANA 6</option>
+                    <option value="/mod/scorm/view.php?id=13486&amp;forceview=1">CAP 7. PROCESAMIENTO DE DATOS EST. DESC. Y VISUALIZACION DE DATOS P1/ CLASE SINCRONICA 13</option>
+                    <option value="/mod/scorm/view.php?id=13487&amp;forceview=1">CAP 7. PROCESAMIENTO DE DATOS EST. DESC. Y VISUALIZACION DE DATOS P2/ CLASE SINCRONICA 14</option>
+                    <option value="/mod/assign/view.php?id=13497&amp;forceview=1">ACTIVIDAD CAPITULO 7 / ASINCRONICA SEMANA 7</option>
+                    <option value="/mod/assign/view.php?id=13508&amp;forceview=1">QUIZ 7 - PYTHON</option>
+                    <option value="/mod/scorm/view.php?id=13488&amp;forceview=1">CAP 8. MINIPROYECTO DE VISUALIZACION DE DATOS / CLASE SINCRONICA 15</option>
+        </select>
+            <noscript>
+                <input type="submit" class="btn btn-secondary ml-1" value="Ir">
+            </noscript>
+    </form>
+</div>
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="float-md-right float-sm-left">
+                    <a href="https://www.steamvirtual.com/mod/scorm/view.php?id=13478&amp;forceview=1" id="next-activity-link" class="btn btn-inverse btn-sm" title="CAP 3. FUNCION CLAUSURA Y CLASE P2 / CLASE SINCRONICA 6">Próxima actividad</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+        
+    </div>
+</section>
+
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    <footer id="page-footer" class="py-3">
+        <div class="floating-buttons page-settings" data-html2canvas-ignore="">
+            <button id="gotop" type="button" class="btn btn-floating btn-primary align-items-center justify-content-center d-flex" data-toggle="tooltip" data-original-title="Go Top" data-placement="left" data-trigger="hover" aria-label="Go To Top" role="button">
+                <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </button>
+            
+    
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row m-0 p-0">
+                    <div class="col-12 col-sm-6 col-lg-3 text-xs-center">
+                        <div class="p-2">
+                            <h4 class="card-title mt-1 text-white font-weight-normal font-size-18">STEAM Virtual</h4>
+                            <div class="card-text text-white"><div class="text_to_html"><p dir="ltr" style="text-align:left;">&nbsp;Únete a nuestra misión para inspirar a las nuevas generaciones a continuar sus estudios en los campos STEM/STEAM de manera virtual.&nbsp;<span style="font-size:.9375rem;">&nbsp;</span><span style="font-size:.9375rem;">&nbsp;</span><span style="font-size:.9375rem;">&nbsp;</span><span style="font-size:.9375rem;">&nbsp;</span><span style="font-size:.9375rem;">&nbsp;</span><span style="font-size:.9375rem;">&nbsp;</span></p></div></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 text-xs-center">
+                        <div class="p-2">
+                            <h4 class="card-title mt-1 text-white font-weight-normal font-size-18"> ¿Cómo podemos ayudar?    </h4>
+                            <div class="card-text text-white"><div class="text_to_html"><p dir="ltr" style="text-align:left;"></p><p><strong></strong>&nbsp;<strong>Teléfono:&nbsp;<br></strong>+507 317-0379<br><strong>Correo electrónico:<br></strong>soporte@aprendersteam.com<br><strong>Horario de atención:&nbsp;<br></strong>8:00    am - 5:00 pm&nbsp;<span style="font-size:.9375rem;text-transform:inherit;">&nbsp;</span><span style="font-size:.9375rem;">&nbsp;</span><span style="font-size:.9375rem;text-transform:inherit;">&nbsp;</span>&nbsp;<span style="font-size:.9375rem;text-transform:inherit;">&nbsp;</span>&nbsp;<span style="font-size:.9375rem;"></span></p><p></p></div></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 text-xs-center">
+                        <div class="p-2">
+                            <h4 class="card-title mt-1 text-white font-weight-normal font-size-18"> Explora    </h4>
+                            <div class="card-text text-white"><div class="text_to_html"><p><strong><strong><a href="https://www.steamvirtual.com/local/staticpage/view.php?page=COPYRIGHTSTEAM" target="_blank" rel="noreferrer noopener"></a></strong></strong>&nbsp;&nbsp;<strong><strong><a href="https://www.steamvirtual.com/local/staticpage/view.php?page=COPYRIGHTSTEAM" target="_blank" rel="noreferrer noopener">¿Qué es STEAM?</a><br></strong><a href="https://www.steamvirtual.com/local/staticpage/view.php?page=Politica_de_PrivacidadINTERNATIONALSTEAMEDuca" target="_blank" rel="noreferrer noopener">Politica de Privacidad</a><br><strong><a href="https://www.steamvirtual.com/local/staticpage/view.php?page=TrminosdeUsodeAprenderSTEMEducationInc" target="_blank" rel="noreferrer noopener">Términos de Uso</a>&nbsp;</strong><br></strong><strong>Nosotros<br>Soporte<br></strong><strong><strong>Creadores de Contenido<br><strong style="font-size:.9375rem;text-transform:inherit;"><strong>Iconos creados por&nbsp;<a href="https://www.freepik.com/" target="_blank" rel="noreferrer noopener">Freepik</a>&nbsp;de&nbsp;<a href="https://www.flaticon.com/" target="_blank" rel="noreferrer noopener">www.flaticon.com</a>&nbsp;</strong></strong></strong></strong>&nbsp;<strong><strong><strong style="font-size:.9375rem;text-transform:inherit;"><strong></strong></strong></strong></strong></p><p><a href="https://www.steamvirtual.com/local/staticpage/view.php?page=COPYRIGHTSTEAM" target="_blank" rel="noreferrer noopener"><strong></strong></a>&nbsp;&nbsp;<span style="font-size:.9375rem;text-transform:inherit;">&nbsp;</span><span style="font-size:.9375rem;text-transform:inherit;">&nbsp;</span><span style="font-size:.9375rem;text-transform:inherit;">&nbsp;</span><span style="font-size:.9375rem;text-transform:inherit;">&nbsp;</span></p><p><span><span><span><span><span><span><span><span><span><span><span><span style="font-size:.9375rem;text-transform:inherit;"><b></b></span></span></span></span></span></span></span></span></span></span></span></span></p><p><span><span></span></span></p><p></p><p><strong style="font-size:.9375rem;"></strong></p></div></div>
+                        </div>
+                    </div>
+    
+                    <div class="col-12 col-sm-6 col-lg-3 text-xs-center">
+                        <div class="py-2 px-1">
+                            <h4 class="card-title mt-1 text-white font-weight-normal font-size-18">Síguenos</h4>
+                            <p class="card-text">
+                                    <a href="https://www.facebook.com/steamvirtual" class="btn btn-icon btn-round social-facebook m-1"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="https://www.twitter.com/steamvirtual" class="btn btn-icon btn-round social-twitter m-1"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="https://www.instagram.com/steamvirtual" class="btn btn-icon btn-round social-instagram m-1"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://www.youtube.com/channel/UCmiUMQMoWE3cBn5DeTau1fA" class="btn btn-icon btn-round social-youtube m-1"><i class="icon fa fa-youtube" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="footer-bottom row mx-3 px-0 py-2">
+                <div class="site-footer-legal pt-2 col-md-6">
+                    <nav class="nav navbar-nav d-none" aria-label="Menú personalizado">
+                            <ul class="list-unstyled pt-3">
+                                                <li><a href="https://www.steamvirtual.com/mod/scorm/player.php#" title="Idioma">Español - México ‎(es_mx)‎</a></li>
+                                            <li>
+                                                <ul class="list-unstyled ml-3">
+                                                                    <li><a href="https://www.steamvirtual.com/mod/scorm/player.php?scoid=838&amp;cm=13477&amp;currentorg=pkOnVuaQYRwCN_organization&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a></li>
+                                                                    <li><a href="https://www.steamvirtual.com/mod/scorm/player.php?scoid=838&amp;cm=13477&amp;currentorg=pkOnVuaQYRwCN_organization&amp;lang=es_mx" title="Español - México ‎(es_mx)‎">Español - México ‎(es_mx)‎</a></li>
+                                                                    <li><a href="https://www.steamvirtual.com/mod/scorm/player.php?scoid=838&amp;cm=13477&amp;currentorg=pkOnVuaQYRwCN_organization&amp;lang=fr" title="Français ‎(fr)‎">Français ‎(fr)‎</a></li>
+                                                                    <li><a href="https://www.steamvirtual.com/mod/scorm/player.php?scoid=838&amp;cm=13477&amp;currentorg=pkOnVuaQYRwCN_organization&amp;lang=pt_br" title="Português - Brasil ‎(pt_br)‎">Português - Brasil ‎(pt_br)‎</a></li>
+                                                </ul>
+                                            </li>
+                            </ul>
+                    </nav>
+                    <a href="https://www.steamvirtual.com/mod/scorm/player.php"><div class="text_to_html">Copyright © 2022. La plataforma STEAM Virtual y todos sus cursos no estan afiliados, patrocinados, o respaldados por LEGO® Group, LEGO®, the LEGO® logo, the Brick, MINDSTORMS®, WeDo, o ninguna de sus marcas comerciales.</div></a>
+                </div>
+                <div class="site-footer-right pt-2 col-md-6 text-right">
+                    <div class="logininfo">Usted ha iniciado sesión como <a href="https://www.steamvirtual.com/user/profile.php?id=19517" title="Ver perfil">Ethan Martinez</a> (<a href="https://www.steamvirtual.com/login/logout.php?sesskey=NO18MKJ7un">Salir</a>)</div>
+                    <div class="tool_usertours-resettourcontainer"></div>
+                    <div class="policiesfooter"><a href="https://www.steamvirtual.com/admin/tool/policy/viewall.php?returnurl=https%3A%2F%2Fwww.steamvirtual.com%2Fmod%2Fscorm%2Fplayer.php%3Fscoid%3D838%26amp%3Bcm%3D13477%26amp%3Bcurrentorg%3DpkOnVuaQYRwCN_organization">Políticas</a></div>
+                </div>
+            </div>
+            <div id="course-footer"></div>
+            <script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://www.steamvirtual.com/lib/requirejs.php/1705958589/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://www.steamvirtual.com/lib/javascript.php/1705958589/lib/jquery/jquery-3.4.1.min',
+        jqueryui: 'https://www.steamvirtual.com/lib/javascript.php/1705958589/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://www.steamvirtual.com/lib/javascript.php/1705958589/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="./SIC 2024_ CAP 3. FUNCION CLAUSURA Y CLASE P1 _ CLASE SINCRONICA 5_files/javascript(8).php"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+require(['core/prefetch']);
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://www.steamvirtual.com/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage('es', {
+  "Play": "Reproducir",
+  "Play Video": "Reproducir Vídeo",
+  "Pause": "Pausa",
+  "Current Time": "Tiempo reproducido",
+  "Duration": "Duración total",
+  "Remaining Time": "Tiempo restante",
+  "Stream Type": "Tipo de secuencia",
+  "LIVE": "DIRECTO",
+  "Loaded": "Cargado",
+  "Progress": "Progreso",
+  "Fullscreen": "Pantalla completa",
+  "Non-Fullscreen": "Pantalla no completa",
+  "Mute": "Silenciar",
+  "Unmute": "No silenciado",
+  "Playback Rate": "Velocidad de reproducción",
+  "Subtitles": "Subtítulos",
+  "subtitles off": "Subtítulos desactivados",
+  "Captions": "Subtítulos especiales",
+  "captions off": "Subtítulos especiales desactivados",
+  "Chapters": "Capítulos",
+  "You aborted the media playback": "Ha interrumpido la reproducción del vídeo.",
+  "A network error caused the media download to fail part-way.": "Un error de red ha interrumpido la descarga del vídeo.",
+  "The media could not be loaded, either because the server or network failed or because the format is not supported.": "No se ha podido cargar el vídeo debido a un fallo de red o del servidor o porque el formato es incompatible.",
+  "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "La reproducción de vídeo se ha interrumpido por un problema de corrupción de datos o porque el vídeo precisa funciones que su navegador no ofrece.",
+  "No compatible source was found for this media.": "No se ha encontrado ninguna fuente compatible con este vídeo.",
+  "Audio Player": "Reproductor de audio",
+  "Video Player": "Reproductor de video",
+  "Replay": "Volver a reproducir",
+  "Seek to live, currently behind live": "Buscar en vivo, actualmente demorado con respecto a la transmisión en vivo",
+  "Seek to live, currently playing live": "Buscar en vivo, actualmente reproduciendo en vivo",
+  "Progress Bar": "Barra de progreso",
+  "progress bar timing: currentTime={1} duration={2}": "{1} de {2}",
+  "Descriptions": "Descripciones",
+  "descriptions off": "descripciones desactivadas",
+  "Audio Track": "Pista de audio",
+  "Volume Level": "Nivel de volumen",
+  "The media is encrypted and we do not have the keys to decrypt it.": "El material audiovisual está cifrado y no tenemos las claves para descifrarlo.",
+  "Close": "Cerrar",
+  "Modal Window": "Ventana modal",
+  "This is a modal window": "Esta es una ventana modal",
+  "This modal can be closed by pressing the Escape key or activating the close button.": "Esta ventana modal puede cerrarse presionando la tecla Escape o activando el botón de cierre.",
+  ", opens captions settings dialog": ", abre el diálogo de configuración de leyendas",
+  ", opens subtitles settings dialog": ", abre el diálogo de configuración de subtítulos",
+  ", selected": ", seleccionado",
+  "Close Modal Dialog": "Cierra cuadro de diálogo modal",
+  ", opens descriptions settings dialog": ", abre el diálogo de configuración de las descripciones",
+  "captions settings": "configuración de leyendas",
+  "subtitles settings": "configuración de subtítulos",
+  "descriptions settings": "configuración de descripciones",
+  "Text": "Texto",
+  "White": "Blanco",
+  "Black": "Negro",
+  "Red": "Rojo",
+  "Green": "Verde",
+  "Blue": "Azul",
+  "Yellow": "Amarillo",
+  "Magenta": "Magenta",
+  "Cyan": "Cian",
+  "Background": "Fondo",
+  "Window": "Ventana",
+  "Transparent": "Transparente",
+  "Semi-Transparent": "Semitransparente",
+  "Opaque": "Opaca",
+  "Font Size": "Tamaño de fuente",
+  "Text Edge Style": "Estilo de borde del texto",
+  "None": "Ninguno",
+  "Raised": "En relieve",
+  "Depressed": "Hundido",
+  "Uniform": "Uniforme",
+  "Dropshadow": "Sombra paralela",
+  "Font Family": "Familia de fuente",
+  "Proportional Sans-Serif": "Sans-Serif proporcional",
+  "Monospace Sans-Serif": "Sans-Serif monoespacio",
+  "Proportional Serif": "Serif proporcional",
+  "Monospace Serif": "Serif monoespacio",
+  "Casual": "Informal",
+  "Script": "Cursiva",
+  "Small Caps": "Minúsculas",
+  "Reset": "Restablecer",
+  "restore all settings to the default values": "restablece todas las configuraciones a los valores predeterminados",
+  "Done": "Listo",
+  "Caption Settings Dialog": "Diálogo de configuración de leyendas",
+  "Beginning of dialog window. Escape will cancel and close the window.": "Comienzo de la ventana de diálogo. La tecla Escape cancelará la operación y cerrará la ventana.",
+  "End of dialog window.": "Final de la ventana de diálogo.",
+  "{1} is loading.": "{1} se está cargando."
+});
+
+    });
+});;
+
+require(
+[
+    'jquery',
+    'core_message/message_popover'
+],
+function(
+    $,
+    Popover
+) {
+    var toggle = $('#message-drawer-toggle-65bae185b724e65bae185b724f1');
+    Popover.init(toggle);
+});
+;
+M.util.js_pending('local_edwiserreports/install'); require(['local_edwiserreports/install'], function(amd) {amd.init(); M.util.js_complete('local_edwiserreports/install');});;
+
+require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+    CustomEvents.define('#single_select65bae185b724f4', [CustomEvents.events.accessibleChange]);
+    $('#single_select65bae185b724f4').on(CustomEvents.events.accessibleChange, function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f65bae185b724f3').submit();
+        }
+    });
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+        require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+            CustomEvents.define('#jump-to-activity', [CustomEvents.events.accessibleChange]);
+            $('#jump-to-activity').on(CustomEvents.events.accessibleChange, function() {
+                if (!$(this).val()) {
+                    return false;
+                }
+                $('#url_select_f65bae185b724f7').submit();
+            });
+        });
+    ;
+
+require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+    CustomEvents.define('#single_select65bae185b724f9', [CustomEvents.events.accessibleChange]);
+    $('#single_select65bae185b724f9').on(CustomEvents.events.accessibleChange, function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f65bae185b724f8').submit();
+        }
+    });
+});
+;
+
+    
+
+    require(['theme_remui/loader']);
+    require(['theme_remui/drawer'], function(mod) {
+        mod.init();
+    });
+;
+
+require(['theme_remui/loader', 'theme_remui/TimeCircles'], function (loader, TimeCircles) {
+    Breakpoints();
+
+    // quiz time circles for timed quizzes
+    jQuery("#quiztimer").TimeCircles({
+        time: {
+            Days: {
+                show: false
+            },
+            Hours: {
+                color: "#3c8dbc"
+            },
+            Minutes: {
+                color: "#00a65a"
+            },
+            Seconds: {
+                color: "#f56954"
+            }
+        },
+        bg_width: 0.9,
+        fg_width: 0.1,
+        circle_bg_color: "#797D82",
+        number_size: 0.24,
+        text_size: 0.11,
+        refresh_interval: 1,
+        animation_interval: "ticks"
+    }).addListener(quizTimeEllapsed);
+
+    // listner for quiz timer
+    function quizTimeEllapsed(unit, value, total) {
+        if (total <= 0) {
+            jQuery(this).fadeOut('medium').replaceWith('<div style="text-align: center; background: rgba(0, 0, 0, 0.13); border-radius: 5px; height: 80px; line-height: 80px; font-size: 18px; color: red;">' + M.util.get_string('timesup', 'quiz') + '</div>');
+        }
+    }
+
+});
+;
+M.util.js_pending('core/network'); require(['core/network'], function(amd) {amd.keepalive(30, 10, "El reproductor de SCORM ha determinado que su conexi\u00f3n de Internet no es estable o que ha sido interrumpida. Si Usted contin\u00faa en esta actividad SCORM, puede que no se guarde su progreso.<br \/> Usted deber\u00eda de salirse ahorita de esta actividad, y regresar en cuanto tenga una conexi\u00f3n confiable de Internet."); M.util.js_complete('core/network');});;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(58636, [], true); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.yui.add_module({"mod_scorm":{"name":"mod_scorm","fullpath":"https:\/\/www.steamvirtual.com\/lib\/javascript.php\/1705958589\/mod\/scorm\/module.js","requires":["json"]}});
+
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima modificaci\u00f3n","name":"Nombre","error":"Error","info":"Informaci\u00f3n","yes":"S\u00ed","no":"No","cancel":"Cancelar","hide":"Ocultar","show":"Mostrar","confirm":"Confirmar","areyousure":"\u00bfEst\u00e1 Usted seguro?","closebuttontitle":"Cerrar","unknownerror":"Error desconocido","file":"Archivo","url":"URL"},"repository":{"type":"Tipo","size":"Tama\u00f1o","invalidjson":"Cadena JSON no v\u00e1lida","nofilesattached":"No se han adjuntado archivos","filepicker":"Selector de archivos","logout":"Salir","nofilesavailable":"No hay archivos disponibles","norepositoriesavailable":"Lo sentimos, ninguno de sus repositorios actuales puede devolver archivos en el formato solicitado.","fileexistsdialogheader":"El archivo existe","fileexistsdialog_editor":"Un archivo con ese nombre ha sido anexado al texto que Usted est\u00e1 editando","fileexistsdialog_filemanager":"Ya ha sido anexado un archivo con ese nombre","renameto":"Cambiar el nombre a \"{$a}\"","referencesexist":"Existen {$a} enlaces a este archivo","select":"Seleccionar"},"admin":{"confirmdeletecomments":"Est\u00e1 a punto de eliminar comentarios, \u00bfest\u00e1 seguro?","confirmation":"Confirmaci\u00f3n"},"theme_remui":{"sidebarpinned":"Barra lateral fijada","sidebarunpinned":"Barra lateral sin fijar","pinsidebar":"Pin barra lateral","unpinsidebar":"Desanclar barra lateral","changelog":"Registro de cambios"},"scorm":{"navigation":"Navegaci\u00f3n","toc":"TOC (Tabla de Contenidos)","popupsblocked":"Parece que las ventanas emergentes est\u00e1n bloqueadas, deteniendo la ejecuci\u00f3n de este m\u00f3dulo SCORM. Por favor verifique la configuraci\u00f3n del explorador, antes de intentarlo de nuevo."},"debug":{"debuginfo":"Informaci\u00f3n de depuraci\u00f3n","line":"L\u00ednea","stacktrace":"Trazado de la pila (stack)"},"langconfig":{"labelsep":":"}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {M.util.help_popups.setup(Y);
+ M.util.js_pending('random65bae185b724f10'); Y.use('mod_scorm', function(Y) { M.mod_scorm.init(Y, 0, "-100", "-100", "3", 767, "sem03_sin01_SIC_CP_Capitulo 3. Funci\u00f3n, clausura y clase", false, "838", "{\"838\":{\"identifier\":\"EAE6F5BE-6816-40FE-98D1-85E3794F16A0\",\"launch\":\"res\\\/index.html\",\"title\":\"sem03_sin01_SIC_CP_Capitulo 3. Funci\\u00f3n, clausura y clase\",\"url\":\"a=376&scoid=838&currentorg=pkOnVuaQYRwCN_organization&mode=&attempt=1\",\"parent\":\"pkOnVuaQYRwCN_organization\",\"isvisible\":\"true\",\"parameters\":\"\"}}");  M.util.js_complete('random65bae185b724f10'); });
+M.scorm_api.init(Y, {"837":{"cmi.core.student_id":"ethanmartinez2503@gmail.com","cmi.core.student_name":"Ethan Martinez","cmi.core.credit":"credit","cmi.core.entry":"ab-initio","cmi.core.lesson_mode":"normal","cmi.launch_data":"","cmi.student_data.mastery_score":"","cmi.student_data.max_time_allowed":"","cmi.student_data.time_limit_action":"","cmi.core.total_time":"00:00:00","cmi.core.lesson_location":"","cmi.core.lesson_status":"","cmi.core.score.raw":"","cmi.core.score.max":"","cmi.core.score.min":"","cmi.core.exit":"","cmi.suspend_data":"","cmi.comments":"","cmi.student_preference.language":"","cmi.student_preference.audio":"0","cmi.student_preference.speed":"0","cmi.student_preference.text":"0"},"838":{"cmi.core.student_id":"ethanmartinez2503@gmail.com","cmi.core.student_name":"Ethan Martinez","cmi.core.credit":"credit","cmi.core.entry":"ab-initio","cmi.core.lesson_mode":"normal","cmi.launch_data":"","cmi.student_data.mastery_score":"","cmi.student_data.max_time_allowed":"","cmi.student_data.time_limit_action":"","cmi.core.total_time":"00:00:00","cmi.core.lesson_location":"","cmi.core.lesson_status":"","cmi.core.score.raw":"","cmi.core.score.max":"","cmi.core.score.min":"","cmi.core.exit":"","cmi.suspend_data":"","cmi.comments":"","cmi.student_preference.language":"","cmi.student_preference.audio":"0","cmi.student_preference.speed":"0","cmi.student_preference.text":"0"}}, {"837":"","838":""}, {"837":"","838":""}, "^[\\u0000-\\uFFFF]{0,64000}$", "^[\\u0000-\\uFFFF]{0,64000}$", false, "0", "376", "https:\/\/www.steamvirtual.com", "NO18MKJ7un", "838", "1", "normal", 13477, "pkOnVuaQYRwCN_organization", false, true, "3");
+ M.util.js_pending('random65bae185b724f12'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random65bae185b724f12'); });
+})();
+//]]>
+</script>
+
+        </div>
+    </footer>
+    
+</div><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div>
+
+</body></html>
